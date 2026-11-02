@@ -1,0 +1,38 @@
+Adds an office to Shelldiver's island, with an in-game settings menu, more land, a dev console and New Game+.
+
+FEATURES
+- A new office building you can walk up to and use
+- A Shelldiver-styled menu with animated scrolling, for switching mods on and off and running commands
+- New land on both sides of the village
+- A dev console, including a command to show or hide NPCs
+- New Game+ from the main menu
+- Optional Trainer: movement, combat, oxygen, shop speed, currencies and game speed
+
+DOWNLOAD THESE FIRST
+- .NET 9 Runtime (x64): https://dotnet.microsoft.com/download/dotnet/9.0
+- AurieInstaller: https://github.com/AurieFramework/Aurie/releases/download/v2.0.0b/AurieInstaller.exe
+- BubbleLib 0.0.2: https://github.com/TP-repo/BubbleLib/releases/download/latest/BubbleLib_v0_0_2.zip
+
+INSTALL
+Back up your save first: copy %APPDATA%\Shelldiver\save somewhere safe.
+1. Install the .NET 9 Runtime.
+2. Run AurieInstaller, tick "Allow C# mods", click "Find my game!" and select Shelldiver.exe.
+3. Extract the BubbleLib zip into your Shelldiver folder.
+4. Extract ShelldiverOfficeMods into your Shelldiver folder, merging the "mods" folders.
+5. Optional: extract ShelldiverTrainer the same way.
+
+Your Shelldiver folder is usually:
+C:\Program Files (x86)\Steam\steamapps\common\Shelldiver
+
+Start the game. A Mods option on the main menu means it worked.
+
+COMPATIBILITY
+Tested on Shelldiver v1.0.2.300.020 on Windows with the Steam version. Game updates can undo the install or break the mods.
+
+FILES
+- ShelldiverOfficeMods: the main mod
+- ShelldiverTrainer (optional): needs the main mod
+
+Source code: https://github.com/Asplur/ShelldiverModHut
+
+This is an unofficial fan mod. It loads code into the game at runtime, so some antivirus tools may flag it.
